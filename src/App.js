@@ -11,6 +11,8 @@ class App extends Component {
         <h1>David's San Diego Hotspots with Google Maps and React</h1>
 
         <MapContainer google={this.props.google} />
+
+        <p>Created using Google Maps API and Create-React-App</p>
       </div>
     );
   }
